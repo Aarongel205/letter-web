@@ -73,7 +73,7 @@ function App() {
       <div className='max-w-200 flex flex-row px-4'>
         <button onClick={() => {updateBg(); changeText(); updateDisplay(); }} className='bg-[#ff8fab] w-15 md:w-25 mr-5 rounded-lg'>Yes</button>
         <div className='w-5'></div>
-        <button onMouseEnter={teleport} style={{
+        <button onClick={teleport} onMouseEnter={teleport} style={{
         top: `${position.top}px`,
         left: `${position.left}px`,
         position: position.position
