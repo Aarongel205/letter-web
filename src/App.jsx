@@ -62,7 +62,7 @@ function App() {
     <section style={{
       backgroundImage: background.backgroundImage
     }} className='flex flex-col w-full h-screen justify-center items-center bg-cover bg-no-repeat bg-center'>
-      <img className='rounded-3xl w-60' src={kiss} style={{
+      <img className='rounded-3xl w-35 md:w-50' src={kiss} style={{
         display: changeDisplay.display
       }}></img>
       <img className='w-20 rounded-3xl' src={pleaseGif} style={{
